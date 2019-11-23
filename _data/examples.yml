@@ -1,0 +1,10 @@
+- name: Just a bit modification
+  description: Here I do something, what is good cause just.
+  link: https://github.com/kir-dev/pek-next/pull/20
+  language: ruby
+  technologies: rails, github, other
+- name: A lot of modification
+  description: I did some changes and the application now is much better.
+  link: https://github.com/kir-dev/pek-next/pull/59
+  language: ruby
+  technologies: rails, github, wordchange
