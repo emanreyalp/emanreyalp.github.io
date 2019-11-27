@@ -3,6 +3,6 @@ layout: default
 title: Examples
 ---
 
-# Here comes the examples
+# Here come the examples
 
 {% include examples.html %}
