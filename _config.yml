@@ -6,3 +6,4 @@ collections_dir: resume
 collections:
   - sections
   - work
+  - hobby_projects
