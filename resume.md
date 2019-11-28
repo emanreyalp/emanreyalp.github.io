@@ -3,7 +3,7 @@ layout: default
 title: Resume
 ---
 
-# Geregly Domok
+# Gergely Dömök
 
 {% for item in site.sections %}
   <div>
