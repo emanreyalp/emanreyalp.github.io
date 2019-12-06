@@ -2,3 +2,9 @@
 ---
 
 @import "main";
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.content {
+  font-size: $custom-font-size;
+}
