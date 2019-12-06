@@ -11,7 +11,3 @@ collections:
 sass:
   load_path:
     - _sass
-    - node_modules
-
-exclude:
-  - node_modules
