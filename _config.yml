@@ -7,3 +7,11 @@ collections:
   - sections
   - work
   - hobby_projects
+
+sass:
+  load_path:
+    - _sass
+    - node_modules
+
+exclude:
+  - node_modules

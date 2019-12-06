@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: resume
 title: Resume
+permalink: /resume
 ---
 
 # Gergely Dömök

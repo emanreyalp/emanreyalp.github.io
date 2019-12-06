@@ -1,8 +1,18 @@
+<div class="row">
 {% for item in site.data.examples %}
-  <div>
-    <a href="{{item.link}}" target="_blank">{{item.name}}</a>
-    {{item.description}} |
-    {{item.language}} |
-    {{item.technologies}}
+  <div class="col-sm-6 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{item.link}}" target="_blank">{{item.name}}</a></h5>
+        <p class="card-text">{{item.description}}</p>
+      </div>
+      <div class="card-footer">
+        <div class="row">
+          <div class="col-sm-4 col-md-4">{{item.language}}</div>
+          <div class="col-sm-8 col-md-8 text-right">{{item.technologies}}</div>
+        </div>
+      </div>
+    </div>
   </div>
 {% endfor %}
+</div>
