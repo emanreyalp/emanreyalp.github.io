@@ -4,7 +4,8 @@ title: Work experiences
 number: 1
 ---
 
-{% for item in site.work %}
+{% assign works = site.work | sort: 'number' %}
+{% for item in works reversed %}
 <div class="meta-info">
   <div class="row">
     <div class="col-md-8 job-title"><h4> {{item.position}}</h4></div>
