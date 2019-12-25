@@ -1,5 +1,10 @@
-- email: '****'
-  phone_number: '****'
-  linkedin: lnkd.in/emanreyalp
-  github: github.com/emanreyalp
-  site: emanreyalp.github.io
+email: '****'
+phone_number: '****'
+linkedin: lnkd.in/emanreyalp
+github: github.com/emanreyalp
+site: emanreyalp.github.io
+languages:
+  - name: English
+    level: B2
+  - name: Hungarian
+    level: native

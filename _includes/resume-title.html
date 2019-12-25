@@ -1,0 +1,19 @@
+<div class="resume-title row">
+  <div class="name col"> <h1> Gergely Dömök </h1> </div>
+  <div class="col-6 row">
+    <div class="contact col">
+    {% assign contact = site.data.about_information %}
+      <ul class="list-unstyled">
+        <li> {{contact.linkedin}} </li>
+        <li> {{contact.github}} </li>
+      </ul>
+    </div>
+    <div class="languages col">
+      <ul class="list-unstyled">
+      {% for lang in contact.languages %}
+        <li>{{lang.name}} - {{lang.level}}</li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
