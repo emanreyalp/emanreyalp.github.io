@@ -5,11 +5,11 @@ permalink: /resume
 ---
 
 # Gergely Dömök
-
-{% for item in site.sections %}
+{% assign sections = site.sections | sort: 'number' %}
+{% for section in sections %}
   <div>
-    <h2> {{item.title}} </h2>
-    {{item.content | markdownify}}
+    <h2> {{section.title}} </h2>
+    {{section.content | markdownify}}
   </div>
 {% endfor %}
 
