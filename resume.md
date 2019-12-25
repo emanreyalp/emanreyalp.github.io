@@ -16,5 +16,3 @@ permalink: /resume
   </section>
   </div>
 {% endfor %}
-
-https://ben.balter.com/2015/02/20/jekyll-collections/
