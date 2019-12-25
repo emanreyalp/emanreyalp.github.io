@@ -19,3 +19,24 @@ body {
 .section > h2 {
   color: blue;
 }
+
+.period-time {
+  color: darkblue;
+}
+
+.job-title {
+  color: red;
+  font-weight: bold;
+}
+
+.job-title > h4 {
+  margin-bottom: 0rem;
+}
+
+.company {
+  color: lightblue;
+}
+
+.position-details {
+  margin-top: .5rem;
+}

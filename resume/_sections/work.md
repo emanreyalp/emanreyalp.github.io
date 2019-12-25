@@ -5,8 +5,12 @@ number: 1
 ---
 
 {% for item in site.work %}
-  <div>
-    <h3> {{item.period}} || <b> {{item.position}} - {{item.company}} </b> </h3>
-    {{item.content | markdownify}}
+<div class="meta-info">
+  <div class="row">
+    <div class="col-md-8 job-title"><h4> {{item.position}}</h4></div>
+    <div class="col-md-4 text-right period-time">{{item.period}}</div>
   </div>
+  <div class="company"> {{item.company}} </div>
+</div>
+<div class="position-details">{{item.content | markdownify}}</div>
 {% endfor %}
