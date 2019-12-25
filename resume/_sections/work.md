@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: Work experiences
-number: 3
+number: 1
 ---
 
 {% for item in site.work %}
